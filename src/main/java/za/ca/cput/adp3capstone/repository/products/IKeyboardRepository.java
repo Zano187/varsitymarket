@@ -5,6 +5,7 @@ import za.ca.cput.adp3capstone.repository.IRepository;
 
 import java.util.HashMap;
 
-public interface IKeyboardRepository extends IRepository<Keyboard, Long> {
+public interface
+IKeyboardRepository extends IRepository<Keyboard, Long> {
     HashMap<Long, Keyboard> getAll();
 }

@@ -15,7 +15,9 @@ public class Order {
     private String shippingAddress;
     private double shippingCost;
 
-    public Order(Builder builder) {
+    private Order(){}
+
+    private Order(Builder builder) {
         this.orderId = builder.orderId;
         this.orderDate = builder.orderDate;
         this.productId = builder.productId;
