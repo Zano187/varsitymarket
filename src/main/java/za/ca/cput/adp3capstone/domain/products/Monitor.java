@@ -1,6 +1,12 @@
 package za.ca.cput.adp3capstone.domain.products;
 
-public class Monitor {
+/* Monitor.java
+Monitor Domain Class
+Author: Brezano Liebenberg (230463886)
+Date: 17 April 2025
+ */
+
+public class Monitor extends Product{
 
     private long monitorId;
     private String screenSize;
@@ -43,6 +49,17 @@ public class Monitor {
 
     public boolean getTouchScreen() {
         return touchScreen;
+    }
+
+    @Override
+    public String toString() {
+        return "Monitor{" +
+                "screen size='" + screenSize + '\'' +
+                ", resolution=" + resolution +
+                ", aspect ratio=" + aspectRatio +
+                ", ports=" + ports +
+                ", touch screen=" + touchScreen +
+                '}';
     }
 
     public static class Builder {

@@ -1,5 +1,11 @@
 package za.ca.cput.adp3capstone.domain.products;
 
+/* Keyboard.java
+Keyboard Domain Class
+Author: Brezano Liebenberg (230463886)
+Date: 15 April 2025
+ */
+
 public class Keyboard extends Product{
 
     private String layout;
@@ -28,10 +34,10 @@ public class Keyboard extends Product{
 
     @Override
     public String toString() {
-        return "Laptop{" +
-                "processor='" + layout + '\'' +
-                ", ramSize=" + connectionType +
-                ", storageSize=" + backlit +
+        return "Keyboard{" +
+                "layout='" + layout + '\'' +
+                ", connection type=" + connectionType +
+                ", backlit=" + backlit +
                 '}';
     }
 

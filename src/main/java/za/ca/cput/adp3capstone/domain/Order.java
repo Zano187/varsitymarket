@@ -1,5 +1,11 @@
 package za.ca.cput.adp3capstone.domain;
 
+/* Order.java
+Order Domain Class
+Author: Brezano Liebenberg (230463886)
+Date: 5 April 2025
+ */
+
 import java.time.LocalDate;
 
 public class Order {

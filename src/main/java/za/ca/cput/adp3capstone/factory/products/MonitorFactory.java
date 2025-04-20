@@ -1,5 +1,11 @@
 package za.ca.cput.adp3capstone.factory.products;
 
+/* Monitor.java
+Monitor Factory class
+Author: Brezano Liebenberg (230463886)
+Date: 17 April 2025
+ */
+
 import za.ca.cput.adp3capstone.domain.products.Monitor;
 import za.ca.cput.adp3capstone.util.Helper;
 
